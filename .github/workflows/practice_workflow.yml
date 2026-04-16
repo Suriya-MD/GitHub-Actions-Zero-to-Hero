@@ -1,0 +1,13 @@
+name: practise_workflow
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "My first github action" 
+  
+  
